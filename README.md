@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>¡Bienvenido a mi Portafolio Personal! 👋</h1>
+  <h1>¡Welcome to my Personal Portfolio! 👋</h1>
 </div>
 
 
@@ -12,19 +12,19 @@ You can find me 🌍:
 
 
 
-¡Hola!,
+¡Hi!,
 
 ```javascript
-const Soy_stypcanto = {
+const Im_stypcanto = {
   pronouns: "he" | "him",
   code: ["HTML", "CSS", "JavaScript", "Python", "PHP"],
   tools: ["React", "Node.js", "Laravel"]
 };
 ```
 
-Un entusiasta defensor de la innovación y un amante del trabajo en equipo. Aunque soy Ingeniero de Telecomunicaciones de profesión, una de mis mayores pasiones es el desarrollo web, tanto en el Front-end como en el Back-end. 
+An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Although I am a Telecommunications Engineer by profession, one of my greatest passions is web development, both on the Front-end and Back-end.
 
-En mi portafolio, encontrarás una colección de proyectos que he desarrollado durante mi tiempo en la universidad. Estos proyectos reflejan mis ideas y experiencia en la industria tecnológica. Mi objetivo es seguir creciendo y aprender mientras contribuyo a proyectos emocionantes.
+In my portfolio, you will find a collection of projects that I have developed during my time at university. These projects reflect my ideas and experience in the technology industry. My goal is to continue growing and learning while contributing to exciting projects.
 
 <div align="center">
   <a href="https://github.com/stypcanto/github-readme-stats">
@@ -33,12 +33,12 @@ En mi portafolio, encontrarás una colección de proyectos que he desarrollado d
 </div>
 
 
-## Acerca de mí 🚀
+## About me 🚀
 
-- 💼 Profesión: Ingeniero de Telecomunicaciones.
-- 💻 Pasión: Desarrollo web y tecnología.
-- 🤝 Actitud: Creyente en el poder del trabajo en equipo y la colaboración.
-- 🎓 Aprendizaje constante: Siempre buscando nuevas formas de mejorar mis habilidades.
+💼 Profession: Telecommunications Engineer.
+💻 Passion: Web development and technology.
+🤝 Attitude: Believer in the power of teamwork and collaboration.
+🎓 Constant learning: Always seeking new ways to improve my skills.
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=stypcanto&show_icons=true&theme=transparent" alt="Styp Canto's GitHub stats" />
