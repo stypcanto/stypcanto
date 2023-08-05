@@ -15,7 +15,7 @@
 
 
 
-¡Hi!,
+¡Hi!, I am a Peruvian engineer 🇵🇪, creative, and software enthusiast.
 
 ```javascript
 const Im_stypcanto = {
@@ -26,7 +26,7 @@ const Im_stypcanto = {
 };
 ```
 
-An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Although I am a Telecommunications Engineer by profession, one of my greatest passions is web development, both on the Front-end and Back-end.
+An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Although I am a Telecommunications Engineer by profession, one of my greatest passions is web development,  in the Front-end and now I'm learning too much in the Back-end
 
 In my portfolio, you will find a collection of projects that I have developed during my time at university. These projects reflect my ideas and experience in the technology industry.
 
