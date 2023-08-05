@@ -6,9 +6,11 @@
 
 ![Neutral Creative Professional LinkedIn Article Cover Image (1)](https://github.com/stypcanto/stypcanto/assets/80213508/3ea60d3e-2598-4c15-9a6a-ece0d8dcfcfb)
 
-You can find me 🌍:
-
- [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/stypcanto) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stypcanto/) styp611@outlook.com
+<div align="center">
+  <h2>You can find me 🌍:</h2>
+  
+  [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/stypcanto) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stypcanto/) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/ing.styp.canto/) ![Email](https://img.shields.io/badge/Email-styp611%40outlook.com-red)
+</div>
 
 
 
@@ -24,7 +26,12 @@ const Im_stypcanto = {
 
 An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Although I am a Telecommunications Engineer by profession, one of my greatest passions is web development, both on the Front-end and Back-end.
 
-In my portfolio, you will find a collection of projects that I have developed during my time at university. These projects reflect my ideas and experience in the technology industry. My goal is to continue growing and learning while contributing to exciting projects.
+In my portfolio, you will find a collection of projects that I have developed during my time at university. These projects reflect my ideas and experience in the technology industry.
+
+My goal is to continue growing and learning while contributing to exciting projects.
+
+
+
 
 <div align="center">
   <a href="https://github.com/stypcanto/github-readme-stats">
@@ -36,9 +43,14 @@ In my portfolio, you will find a collection of projects that I have developed du
 ## About me 🚀
 
 💼 Profession: Telecommunications Engineer.
+
 💻 Passion: Web development and technology.
+
 🤝 Attitude: Believer in the power of teamwork and collaboration.
+
 🎓 Constant learning: Always seeking new ways to improve my skills.
+
+
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=stypcanto&show_icons=true&theme=transparent" alt="Styp Canto's GitHub stats" />
