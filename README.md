@@ -20,7 +20,7 @@ Un entusiasta defensor de la innovación y un amante del trabajo en equipo. Aunq
 
 En mi portafolio, encontrarás una colección de proyectos que he desarrollado durante mi tiempo en la universidad. Estos proyectos reflejan mis ideas y experiencia en la industria tecnológica. Mi objetivo es seguir creciendo y aprender mientras contribuyo a proyectos emocionantes.
 
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto)](https://github.com/stypcanto/github-readme-stats)
 
 ## Acerca de mí 🚀
 
@@ -29,4 +29,4 @@ En mi portafolio, encontrarás una colección de proyectos que he desarrollado d
 - 🤝 Actitud: Creyente en el poder del trabajo en equipo y la colaboración.
 - 🎓 Aprendizaje constante: Siempre buscando nuevas formas de mejorar mis habilidades.
 
-[![Styp's GitHub stats](https://gh-stats-card.cyclic.app/api/jxmked)](https://github.com/stypcanto)
+![Styp Canto's GitHub stats](https://github-readme-stats.vercel.app/api?username=stypcanto&show_icons=true&theme=transparent)
