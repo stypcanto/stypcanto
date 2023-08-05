@@ -29,4 +29,4 @@ En mi portafolio, encontrarás una colección de proyectos que he desarrollado d
 - 🤝 Actitud: Creyente en el poder del trabajo en equipo y la colaboración.
 - 🎓 Aprendizaje constante: Siempre buscando nuevas formas de mejorar mis habilidades.
 
-
+[![Styp's GitHub stats](https://gh-stats-card.cyclic.app/api/jxmked)](https://github.com/stypcanto)
