@@ -121,3 +121,34 @@ My goal is to continue growing and learning while contributing to exciting proje
   <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=stypcanto&" alt="stypcanto" /></p>
 </div>
 
+## My projects
+
+<h1> 1. Shopping Cart </h1>
+
+https://stypcanto.github.io/carritodecompras/
+
+In this exciting project, I have created a specialized shopping cart for sneaker products, showcasing my skills as a web developer. By applying the knowledge gained during my training, I have built a functional and attractive tool to enhance the shopping experience.
+
+<h3> Key Features </h3>
+
+- I used HTML to meticulously structure the content, ensuring a clear and user-friendly interface 🧱🤝.
+- I implemented a responsive web design that ensures an optimal experience on both mobile devices and desktop computers 📱💻.
+- Each line of code reflects my dedication and enthusiasm to create an intuitive and visually appealing interface.
+- I designed carefully crafted styles with CSS, highlighting the aesthetics of the page and enhancing the user experience 🎨.
+- The shopping cart functionality allows users to add products, update quantities, and calculate total prices interactively.
+
+ <h3>  Enhanced User Experience </h3>
+
+My shopping cart not only provides a convenient way to purchase sneakers but also focuses on the user experience. From product selection to the checkout process, every aspect has been optimized to provide a seamless and enjoyable experience.
+
+<h3> Screenshots </h3>
+
+<img width="1484" alt="Captura de pantalla 2023-08-05 a la(s) 01 41 14" src="https://github.com/stypcanto/carritodecompras/assets/80213508/f65beb83-d836-480f-b1d5-8d29d5fdef7f">
+
+<img width="632" alt="Captura de pantalla 2023-08-05 a la(s) 01 42 37" src="https://github.com/stypcanto/carritodecompras/assets/80213508/ec1b8825-2d12-4390-a990-d01ad640ab85">
+
+<h3> Future Steps </h3>
+
+This project is a testament to my passion for web development and my commitment to excellence. In the future, I plan to continue improving and expanding this application, incorporating new features and further optimizing the user experience.
+
+I appreciate the opportunity to share my work and am excited for the opportunities that web development holds for me. I hope you enjoy exploring my sneaker shopping cart as much as I enjoyed creating it! 👟🚀
