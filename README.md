@@ -1,6 +1,6 @@
 # ¡Bienvenido a mi Portafolio Personal! 👋
 
-![](https://unsplash.com/es/fotos/m_HRfLhgABo)
+![Neutral Creative Professional LinkedIn Article Cover Image](https://github.com/stypcanto/stypcanto/assets/80213508/a77fe389-7a7e-4fe4-91ec-e074abc6ab7c)
 
 
 ¡Hola! Soy Styp Canto Rondón, un entusiasta defensor de la innovación y un amante del trabajo en equipo. Aunque soy Ingeniero de Telecomunicaciones de profesión, una de mis mayores pasiones es el desarrollo web, tanto en el Front-end como en el Back-end. 
