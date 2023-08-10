@@ -812,6 +812,7 @@ textarea.contact-input {
 .redes-sociales {
   text-align: left;
   margin-top: 30px;
+  transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
 }
 
 .redes-icono {
@@ -825,6 +826,7 @@ textarea.contact-input {
 /* Efecto hover */
 .redes-icono:hover {
   color: #73AF55;
+  transform: scale(1.3); /* Escala la imagen un 10% más grande al colocar el cursor sobre ella */
 }
 
 
