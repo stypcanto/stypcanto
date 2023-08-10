@@ -36,6 +36,13 @@
   --rufous: hsl(2, 85%, 35%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
+  --react:#61dbfb;
+  --html5:#e34c26;
+  --css3:#2965f1;
+  --python:#306998;
+  --nodejs: #3C873A;
+  --linux:black;
+
 
   /**
    * typography
@@ -463,6 +470,8 @@ body {
 }
 
 .portfolio-card {
+  position: relative; /* Asegura que el contenido esté posicionado correctamente */
+  overflow: hidden; /* Oculta el contenido que exceda las dimensiones de la tarjeta */
   background-color: var(--independence);
   background-repeat: no-repeat;
   background-size: cover;
@@ -473,6 +482,27 @@ body {
   color: var(--white);
   font-weight: var(--fw-600);
   transition: var(--transition-2);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
+  opacity: 1; /* Cambia el valor a 1 para que el fondo sea visible */
+  transition: opacity 0.3s ease; /* Transición suave al cambiar la opacidad */
+}
+
+
+.card-content {
+  position: relative; /* Asegura que el contenido se posicione correctamente */
+  z-index: 2; /* Coloca este contenido encima del overlay */
+  padding: 20px; /* Ajusta el espaciado según tus preferencias */
+  color: var(--white); /* Color del texto */
+  background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente para resaltar el contenido */
+  border-radius: 10px; /* Ajusta el radio del borde según tus preferencias */
 }
 
 .portfolio-list>li:nth-child(even) .card-content {
@@ -1146,25 +1176,63 @@ textarea.contact-input {
     border-radius: inherit;
   }
 
+  .abs-icon-0 {
+    top: -44px;
+    left: -21px;
+    background-color: var(--html5);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+  }
+
   .abs-icon-1 {
-    top: 50px;
-    left: -120px;
-    background-color: var(--bluetiful);
+    top: 87px;
+    left: -57px;
+    background-color: var(--css3);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-2 {
     top: -40px;
     right: -40px;
     background-color: var(--gold-web-golden);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-3 {
-    bottom: -40px;
-    left: 250px;
-    background-color: var(--rufous);
+    bottom: 90px;
+    left: 415px;
+    background-color: var(--react);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
   }
 
+  .abs-icon-4 {
+    bottom: 244px;
+    left: 429px;
+    background-color: var(--linux);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+  }
 
+  .abs-icon-5 {
+    bottom: -48px;
+    left: 302px;
+    background-color: var(--python);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+  }
+
+  .abs-icon-6 {
+    bottom: 160px;
+    left: -36px;
+    background-color: var(--nodejs);
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+  }
+  .abs-icon-0:hover,
+  .abs-icon-1:hover,
+  .abs-icon-2:hover,
+  .abs-icon-3:hover,
+  .abs-icon-4:hover,
+  .abs-icon-5:hover,
+  .abs-icon-6:hover {
+    transform: scale(1.3); /* Escala la imagen un 30% más grande al colocar el cursor sobre ella */
+  }
 
   /**
    * PORTFOLIO
