@@ -14,11 +14,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $contenido .= "Mensaje:\n$mensaje";
     
     // Headers del correo
-    $headers = "From: $correo";
+    $headers = "From: $correo\r\n";
+    $headers .= "Reply-To: $correo\r\n";
     
     // Enviar el correo
     if (mail($destinatario, $asunto, $contenido, $headers)) {
-        echo "Mensaje enviado correctamente.";
         // Redireccionar a una página de confirmación
         header("Location: confirmacion.html");
         exit();
