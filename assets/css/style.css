@@ -36,12 +36,12 @@
   --rufous: hsl(2, 85%, 35%);
   --black: hsl(0, 0%, 0%);
   --white: hsl(0, 0%, 100%);
-  --react:#61dbfb;
-  --html5:#e34c26;
-  --css3:#2965f1;
-  --python:#306998;
+  --react: #61dbfb;
+  --html5: #e34c26;
+  --css3: #2965f1;
+  --python: #306998;
   --nodejs: #3C873A;
-  --linux:black;
+  --linux: black;
 
 
   /**
@@ -224,10 +224,20 @@ body {
   background-color: var(--orange-soda);
 }
 
+.btn-secundary.purple {
+  background-color: rgb(47, 5, 47);
+}
+
+.btn-secundary.purple:is(:hover, :focus) {
+  background-color: var(--orange-soda);
+}
+
+
 .img-cover {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 
 .section {
@@ -381,6 +391,26 @@ body {
 .hero-banner img {
   border-radius: inherit;
 }
+.hero-banner:hover .img-cover {
+  transform: scale(1.15);
+}
+
+/* Efecto de superposición con fondo oscuro al pasar el cursor */
+.hero-banner:hover::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.hero-banner:hover::before {
+  opacity: 1;
+}
 
 .hero-content {
   text-align: center;
@@ -470,8 +500,10 @@ body {
 }
 
 .portfolio-card {
-  position: relative; /* Asegura que el contenido esté posicionado correctamente */
-  overflow: hidden; /* Oculta el contenido que exceda las dimensiones de la tarjeta */
+  position: relative;
+  /* Asegura que el contenido esté posicionado correctamente */
+  overflow: hidden;
+  /* Oculta el contenido que exceda las dimensiones de la tarjeta */
   background-color: var(--independence);
   background-repeat: no-repeat;
   background-size: cover;
@@ -490,19 +522,28 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente */
-  opacity: 1; /* Cambia el valor a 1 para que el fondo sea visible */
-  transition: opacity 0.3s ease; /* Transición suave al cambiar la opacidad */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fondo semi-transparente */
+  opacity: 1;
+  /* Cambia el valor a 1 para que el fondo sea visible */
+  transition: opacity 0.3s ease;
+  /* Transición suave al cambiar la opacidad */
 }
 
 
 .card-content {
-  position: relative; /* Asegura que el contenido se posicione correctamente */
-  z-index: 2; /* Coloca este contenido encima del overlay */
-  padding: 20px; /* Ajusta el espaciado según tus preferencias */
-  color: var(--white); /* Color del texto */
-  background-color: rgba(0, 0, 0, 0.3); /* Fondo semitransparente para resaltar el contenido */
-  border-radius: 10px; /* Ajusta el radio del borde según tus preferencias */
+  position: relative;
+  /* Asegura que el contenido se posicione correctamente */
+  z-index: 2;
+  /* Coloca este contenido encima del overlay */
+  padding: 20px;
+  /* Ajusta el espaciado según tus preferencias */
+  color: var(--white);
+  /* Color del texto */
+  background-color: rgba(0, 0, 0, 0.3);
+  /* Fondo semitransparente para resaltar el contenido */
+  border-radius: 10px;
+  /* Ajusta el radio del borde según tus preferencias */
 }
 
 .portfolio-list>li:nth-child(even) .card-content {
@@ -842,7 +883,8 @@ textarea.contact-input {
 .redes-sociales {
   text-align: left;
   margin-top: 30px;
-  transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+  transition: transform 0.3s ease-in-out;
+  /* Agrega una transición suave en el cambio de tamaño */
 }
 
 .redes-icono {
@@ -856,7 +898,8 @@ textarea.contact-input {
 /* Efecto hover */
 .redes-icono:hover {
   color: #73AF55;
-  transform: scale(1.3); /* Escala la imagen un 10% más grande al colocar el cursor sobre ella */
+  transform: scale(1.3);
+  /* Escala la imagen un 10% más grande al colocar el cursor sobre ella */
 }
 
 
@@ -868,19 +911,35 @@ textarea.contact-input {
 
 /**
  * responsive for larger than 600px screen
+ 
  */
 
- @media (min-width: 390px) {
+@media (max-width: 320px) {
 
+  /* Estilos y reglas para pantallas de 320 píxeles o menos */
   .redes-sociales {
+    margin-top: 16px;
     text-align: center;
   }
-  
+
+  .hero-banner {
+    margin-bottom: 30px;
+  }
+
+  .hero-text {
+    margin-block-end: 17px;
+  }
+
+  .btn {
+    display: none;
+  }
+
+
 
 }
 
-@media (min-width: 600px) {
-
+@media (max-width: 390px) {
+  /* Estilos y reglas para pantallas de 390 píxeles o menos */
   /**
    * PORTFOLIO
    */
@@ -889,26 +948,32 @@ textarea.contact-input {
     margin-inline-start: 50%;
   }
 
-  
+  .redes-sociales {
+    margin-top: 8px;
+    text-align: center;
+  }
 
 }
 
 
-
-
-
 /**
- * responsive for larger than 768px screen
+ * responsive igual 
  */
 
-@media (min-width: 768px) {
-
+ @media (max-width: 991px) {
   .redes-sociales {
     text-align: center;
   }
-  /**
-   * PORTFOLIO
-   */
+
+  .hero-banner {
+    margin-bottom: 50px;
+    width: 224px;
+    height: 221px;
+  }
+
+  .hero-text {
+    margin-top: 34px;
+  }
 
   .portfolio-card {
     background-size: 115%;
@@ -919,21 +984,13 @@ textarea.contact-input {
     background-size: 130%;
   }
 
-
-
-  /**
-   * SKILLS, BLOG
-   */
-
   .skills-list,
   .blog-list {
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
   }
-
- 
-
 }
+
 
 
 
@@ -944,7 +1001,7 @@ textarea.contact-input {
  */
 
 @media (min-width: 992px) {
-
+  /* Estilos y reglas para pantallas de 992 píxeles o más  */
   /**
    * CUSTOM PROPERTY
    */
@@ -1019,7 +1076,7 @@ textarea.contact-input {
     --padding: 7px 30px;
   }
 
-  
+
 
 
   /**
@@ -1180,50 +1237,58 @@ textarea.contact-input {
     top: -44px;
     left: -21px;
     background-color: var(--html5);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-1 {
     top: 87px;
     left: -57px;
     background-color: var(--css3);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-2 {
     top: -40px;
     right: -40px;
     background-color: var(--gold-web-golden);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-3 {
     bottom: 90px;
     left: 415px;
     background-color: var(--react);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-4 {
     bottom: 244px;
     left: 429px;
     background-color: var(--linux);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-5 {
     bottom: -48px;
     left: 302px;
     background-color: var(--python);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
 
   .abs-icon-6 {
     bottom: 160px;
     left: -36px;
     background-color: var(--nodejs);
-    transition: transform 0.3s ease-in-out; /* Agrega una transición suave en el cambio de tamaño */
+    transition: transform 0.3s ease-in-out;
+    /* Agrega una transición suave en el cambio de tamaño */
   }
+
   .abs-icon-0:hover,
   .abs-icon-1:hover,
   .abs-icon-2:hover,
@@ -1231,7 +1296,8 @@ textarea.contact-input {
   .abs-icon-4:hover,
   .abs-icon-5:hover,
   .abs-icon-6:hover {
-    transform: scale(1.3); /* Escala la imagen un 30% más grande al colocar el cursor sobre ella */
+    transform: scale(1.3);
+    /* Escala la imagen un 30% más grande al colocar el cursor sobre ella */
   }
 
   /**
