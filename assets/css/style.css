@@ -555,6 +555,7 @@ textarea.contact-input {
   font-size: 2.4rem;
   padding: 20px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
 .contact-item-title {
@@ -562,11 +563,17 @@ textarea.contact-input {
   font-family: var(--ff-barlow);
   font-size: var(--fs-4);
   font-weight: var(--fw-600);
+  
 }
 
-.contact-item-link { transition: var(--transition-1); }
+.contact-item-link { 
+  transition: var(--transition-1);
+ 
+ }
 
-.contact-item-link:not(address):is(:hover, :focus) { color: var(--white); }
+.contact-item-link:not(address):is(:hover, :focus) { 
+  color: var(--white);
+ }
 
 
 
