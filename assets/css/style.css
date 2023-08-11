@@ -289,10 +289,11 @@ body {
 .desglosable1 {
   position:fixed;
   /* Combina lo mejor de Absolute con relative */
-  top: 65px;
-  right: 333px;
-  width: 94px;
-  height: 60px;
+  top: 75px;
+  right: 350px;
+  width: 100px;
+  padding: 10px 0 10px 0px;
+  height: 80px;
   border: 1px solid var(--ff-barlow);
   border-radius: 3px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -1095,6 +1096,137 @@ textarea.contact-input {
   .header.nav-active{
     height: 366px;
   }
+
+  .header.active {
+    display: block; /* Mostrar cuando la clase active está presente */
+    
+  }
+
+/* MENU MOVIL */
+
+.block {
+  display: block; /* O el estilo que desees aplicar */
+}
+
+.mobile-menu {
+  z-index: 10;
+  position: absolute;
+  top: 169px;
+  left: -3px;
+  width: 50%;
+  padding: 24px;
+  
+  
+  background-color: --var(space-cadet);
+}
+
+.mobile-menu a {
+  text-decoration: none;
+  color: var(--black);
+  font-weight: bold;
+  /* margin-bottom: 24px; */
+}
+
+.mobile-menu ul {
+  padding: 0;
+  margin: 24px 0 0;
+  list-style: none;
+}
+
+.mobile-menu ul:nth-child(1) {
+  border-bottom: 1px solid var(--very-light-pink);
+}
+
+.mobile-menu ul li {
+  margin-bottom: 24px;
+}
+
+
+/* Estilos para ocultar la lista desplegable inicialmente */
+/* Estilos para la lista desplegable */
+.desglosable1.active,
+.desglosable2.active {
+  display: block;
+}
+
+.desglosable2 {
+  position:absolute;
+  /* Combina lo mejor de Absolute con relative */
+  top: 65px;
+  right: 333px;
+  width: 94px;
+  height: 60px;
+  border: 1px solid var(--ff-barlow);
+  border-radius: 3px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  font-size: var(--lg);
+  z-index: 11;
+}
+
+.desglosable2.active {
+  display: block; /* Mostrar cuando la clase active está presente */
+  
+}
+
+.desglosable2 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.desglosable2 ul li {
+  text-align: start;
+  padding: 13px 20px;
+  border-bottom: 1px solid var(--glaucous);
+ 
+}
+
+
+
+.desglosable2 ul li:first-child,
+.desglosable2 ul li:last-child {
+  border: none;
+}
+
+.desglosable2 ul li:last-child a {
+  color: var(--bluetiful);
+  font-size: var(--sm);
+}
+
+.desglosable2 ul li a {
+
+  color: var(--back);
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease; /* Agrega la transición de color */
+}
+
+.desglosable2 ul li a:hover {
+  transform: scale(1.05);
+  background-color: var(--orange-soda);
+  color: var(--bluetiful); /* Cambia el color al pasar el cursor */
+}
+
+
+
+.idioma2{
+  
+  padding-left: 8px; /* Agrega margen derecho de 3px */
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+}
+
+.idioma2:hover{
+  background-color: var(--glaucous);
+}
+
+.navbar .btn {
+  margin-top: 44px;
+}
+
+
 }
 
 

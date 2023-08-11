@@ -48,11 +48,24 @@ window.addEventListener("scroll", function () {
  * Boton desglosable
  */
 
-const BtnDesglosable = document.querySelector('.navbar2-link'); // Selecciona el enlace que activa el desglosable
-const Desglosable1 = document.querySelector('.desglosable1'); // Selecciona el elemento que quieres mostrar/ocultar
 
-BtnDesglosable.addEventListener('click', toggleDesglosable);
+const BtnDesglosable2 = document.querySelector('.navbar2-link');
+const Desglosable1 = document.querySelector('.desglosable1');
+const Desglosable2 = document.querySelector('.desglosable2');
 
-function toggleDesglosable() {
-  Desglosable1.classList.toggle('active'); // Cambia la clase de este elemento, no de BtnDesglosable
+if (BtnDesglosable2 && Desglosable1 && Desglosable2) {
+  BtnDesglosable2.addEventListener('click', toggleMenuDesglosable);
+ 
 }
+
+function toggleMenuDesglosable() {
+  if (Desglosable1 && Desglosable2) {
+    Desglosable1.classList.toggle('active');
+    Desglosable2.classList.toggle('active');
+  }
+  console.log('si funcona el boton de web responsive');
+}
+
+   
+  
+
