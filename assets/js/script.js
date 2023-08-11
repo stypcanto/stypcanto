@@ -48,24 +48,35 @@ window.addEventListener("scroll", function () {
  * Boton desglosable
  */
 
-
-const BtnDesglosable2 = document.querySelector('.navbar2-link');
+const BtnDesglosable = document.querySelector('.navbar2-link');
 const Desglosable1 = document.querySelector('.desglosable1');
 const Desglosable2 = document.querySelector('.desglosable2');
+let timeoutId;
 
-if (BtnDesglosable2 && Desglosable1 && Desglosable2) {
-  BtnDesglosable2.addEventListener('click', toggleMenuDesglosable);
- 
-}
+BtnDesglosable.addEventListener('mouseenter', showDesglosable);
+Desglosable1.addEventListener('mouseenter', showDesglosable);
+Desglosable2.addEventListener('mouseenter', showDesglosable);
 
-function toggleMenuDesglosable() {
-  if (Desglosable1 && Desglosable2) {
-    Desglosable1.classList.toggle('active');
-    Desglosable2.classList.toggle('active');
+function showDesglosable() {
+  clearTimeout(timeoutId); // Cancelar el temporizador de ocultar
+  if (window.matchMedia('(max-width: 990px)').matches) {
+    Desglosable1.classList.add('inactive');
+    Desglosable2.classList.remove('inactive');
+  } else {
+    Desglosable1.classList.remove('inactive');
+    Desglosable2.classList.add('inactive');
   }
-  console.log('si funcona el boton de web responsive');
 }
 
-   
-  
+function hideDesglosable() {
+  clearTimeout(timeoutId); // Cancelar el temporizador existente (si hay uno)
+  timeoutId = setTimeout(() => {
+    Desglosable1.classList.add('inactive');
+    Desglosable2.classList.add('inactive');
+  }, 1000); // Ocultar después de 10 segundos de inactividad
+}
 
+// Agregar eventos mouseleave a los elementos
+BtnDesglosable.addEventListener('mouseleave', hideDesglosable);
+Desglosable1.addEventListener('mouseleave', hideDesglosable);
+Desglosable2.addEventListener('mouseleave', hideDesglosable);
