@@ -279,6 +279,85 @@ body {
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
+.inactive {
+  display: none;
+} 
+
+/* Estilos para ocultar la lista desplegable inicialmente */
+
+
+.desglosable1 {
+  position:fixed;
+  /* Combina lo mejor de Absolute con relative */
+  top: 65px;
+  right: 333px;
+  width: 94px;
+  height: 60px;
+  border: 1px solid var(--ff-barlow);
+  border-radius: 3px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+  background-color: var(--white);
+  font-size: var(--lg);
+  z-index: 7;
+}
+
+.desglosable1.active {
+  display: block; /* Mostrar cuando la clase active está presente */
+  
+}
+
+.desglosable1 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+}
+
+.desglosable1 ul li {
+  text-align: start;
+  padding: 13px 20px;
+  border-bottom: 1px solid var(--glaucous);
+ 
+}
+
+
+
+.desglosable1 ul li:first-child,
+.desglosable1 ul li:last-child {
+  border: none;
+}
+
+.desglosable1 ul li:last-child a {
+  color: var(--bluetiful);
+  font-size: var(--sm);
+}
+
+.desglosable1 ul li a {
+
+  color: var(--back);
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease; /* Agrega la transición de color */
+}
+
+.desglosable1 ul li a:hover {
+  transform: scale(1.05);
+  background-color: var(--orange-soda);
+  color: var(--bluetiful); /* Cambia el color al pasar el cursor */
+}
+
+.idioma{
+  padding-left: 8px; /* Agrega margen derecho de 3px */
+  display: flex;
+  align-items: center; /* Centrar verticalmente */
+}
+
+.idioma:hover{
+  background-color: var(--glaucous);
+}
+
+
+
 
 .header {
   position: fixed;
@@ -314,11 +393,13 @@ body {
 
 .nav-toggle-btn {
   font-size: 3rem;
+  
 }
 
 .nav-toggle-btn .close-icon,
 .nav-toggle-btn.active .menu-icon {
   display: none;
+ 
 }
 
 .nav-toggle-btn.active .close-icon,
@@ -404,6 +485,7 @@ body {
   min-height: 100vh;
   display: grid;
   place-items: center;
+  z-index: 2;
 }
 
 .hero-banner {
@@ -562,7 +644,7 @@ body {
 .card-content {
   position: relative;
   /* Asegura que el contenido se posicione correctamente */
-  z-index: 2;
+  z-index: 3;
   /* Coloca este contenido encima del overlay */
   padding: 20px;
   /* Ajusta el espaciado según tus preferencias */

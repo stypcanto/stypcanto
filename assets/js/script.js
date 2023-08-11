@@ -1,7 +1,5 @@
 'use strict';
 
-
-
 /**
  * navbar toggle
  */
@@ -29,8 +27,6 @@ for (let i = 0; i < navbarLinks.length; i++) {
 
 
 
-
-
 /**
  * back to top & header
  */
@@ -46,3 +42,17 @@ window.addEventListener("scroll", function () {
     backTopBtn.classList.remove("active");
   }
 });
+
+
+/**
+ * Boton desglosable
+ */
+
+const BtnDesglosable = document.querySelector('.navbar2-link'); // Selecciona el enlace que activa el desglosable
+const Desglosable1 = document.querySelector('.desglosable1'); // Selecciona el elemento que quieres mostrar/ocultar
+
+BtnDesglosable.addEventListener('click', toggleDesglosable);
+
+function toggleDesglosable() {
+  Desglosable1.classList.toggle('active'); // Cambia la clase de este elemento, no de BtnDesglosable
+}
