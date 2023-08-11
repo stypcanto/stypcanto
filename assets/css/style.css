@@ -304,9 +304,12 @@ body {
 }
 
 .logo {
-  color: var(--white);
+  color: rgb(239, 238, 244);
   font-family: var(--ff-poppins);
-  font-size: 2.4rem;
+  font-size: 2.3rem;
+  font-weight: bold;
+  margin-inline-end: 20px; /* Ajusta el valor según tu preferencia */
+
 }
 
 .nav-toggle-btn {
@@ -346,15 +349,39 @@ body {
   transition: var(--transition-1);
 }
 
+
 .navbar-link:is(:hover, :focus) {
   color: var(--orange-soda);
 }
 
 .navbar .btn {
   background-color: var(--orange-soda);
+  margin-left: 10px;
   margin-block-start: 15px;
 }
 
+
+.navbar2-link {
+  
+  color: var(--white);
+  font-family: var(--ff-barlow);
+  padding-block: 3px;
+  transition: var(--transition-1);
+  position: relative; /* Añadimos esto para permitir el posicionamiento absoluto del icono */
+  display: inline-flex; /* Mostrar en línea y permitir el alineamiento vertical del icono y el texto */
+  align-items: center; /* Alinear verticalmente el icono y el texto */
+}
+
+
+.navbar2-link:is(:hover, :focus) {
+  color: var(--orange-soda);
+}
+
+.navbar2 .btn {
+  background-color: var(--orange-soda);
+  margin-left: 10px;
+  margin-block-start: 15px;
+}
 
 
 
@@ -433,6 +460,7 @@ body {
 
 .hero-text {
   margin-block-end: 25px;
+  margin-top: 14px;
 }
 
 .btn-group {
@@ -918,23 +946,43 @@ textarea.contact-input {
 
   /* Estilos y reglas para pantallas de 320 píxeles o menos */
   .redes-sociales {
-    margin-top: 16px;
+    margin-top: 10px;
     text-align: center;
   }
 
   .hero-banner {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 
   .hero-text {
-    margin-block-end: 17px;
+   
+    margin-block-end: 6px;
+   
   }
 
-  .btn {
+  .hero-title{
+    margin-block-end: -16px;
+  }
+
+  .hero-title span{
+    margin-top: -43px;
+  }
+
+  .hero-title strong{
+    margin-top: 8px;
+  }
+
+  .hero-adjust{
+    margin-top: 15px;
+    margin-bottom: -23px;
+  }
+  .btn-primary.blue {
     display: none;
   }
 
-
+  .btn-secundary.purple{
+    display: none;
+  }
 
 }
 
@@ -953,6 +1001,18 @@ textarea.contact-input {
     text-align: center;
   }
 
+  .hero-title{
+    margin-block-end: -16px;
+  }
+
+  .hero-adjust{
+    margin-top: 15px;
+    margin-bottom: -23px;
+  }
+
+  .header.nav-active{
+    height: 366px;
+  }
 }
 
 
@@ -962,6 +1022,7 @@ textarea.contact-input {
 
  @media (max-width: 991px) {
   .redes-sociales {
+    margin-top: 18px;
     text-align: center;
   }
 
@@ -988,6 +1049,10 @@ textarea.contact-input {
   .blog-list {
     grid-template-columns: 1fr 1fr;
     column-gap: 50px;
+  }
+
+  .header.nav-active{
+    height: 366px;
   }
 }
 
@@ -1031,7 +1096,7 @@ textarea.contact-input {
    */
 
   .container {
-    max-width: 1050px;
+    max-width: 1077px;
     margin-inline: auto;
   }
 
