@@ -73,7 +73,7 @@ function hideDesglosable() {
   timeoutId = setTimeout(() => {
     Desglosable1.classList.add('inactive');
     Desglosable2.classList.add('inactive');
-  }, 1000); // Ocultar después de 10 segundos de inactividad
+  }, 1000); // Ocultar después de 1 segundos de inactividad
 }
 
 // Agregar eventos mouseleave a los elementos

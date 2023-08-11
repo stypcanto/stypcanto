@@ -355,11 +355,11 @@ body {
 .desglosable2 {
   position:fixed;
   /* Combina lo mejor de Absolute con relative */
-  top: 75px;
-  right: 35%;
-  width: 108px;
+  top: 189px;
+  left: 124px;
+  width: 105px;
 
-  height: 215px;
+  height: 60px;
   border: 1px solid var(--ff-barlow);
   border-radius: 3px;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
@@ -382,13 +382,13 @@ body {
 
 .desglosable2 ul li {
   text-align: start;
-  padding: 5px 10px;
+  padding: 2px 10px;
   border-bottom: 1px solid var(--glaucous);
  
 }
 
 .desglosable2 ul li:hover {
- background: var(--cadet-blue-crayola);
+ background: rgb(6, 62, 65);
  
 }
 
@@ -414,7 +414,7 @@ body {
 .desglosable2 ul li a:hover {
   transform: scale(1.05);
  
-  color: var(--bluetiful); /* Cambia el color al pasar el cursor */
+  color: rgb(253, 253, 253); /* Cambia el color al pasar el cursor */
 }
 
 
@@ -431,7 +431,7 @@ body {
 }
 
 .header.nav-active {
-  height: 335px;
+  height: 460px;
   transition-duration: 0.35s;
 }
 
@@ -485,7 +485,7 @@ body {
 .navbar-link {
   color: var(--white);
   font-family: var(--ff-barlow);
-  padding-block: 3px;
+  padding-block: 0px;
   transition: var(--transition-1);
 }
 
@@ -1125,6 +1125,8 @@ textarea.contact-input {
     display: none;
   }
 
+  
+
 }
 
 @media (max-width: 390px) {
@@ -1152,7 +1154,7 @@ textarea.contact-input {
   }
 
   .header.nav-active{
-    height: 366px;
+    height: 444px;
   }
 
   .header.active {
