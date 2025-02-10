@@ -20,8 +20,9 @@
 ```javascript
 const Im_stypcanto = {
   pronouns: "he" | "him",
-  code: ["HTML", "CSS", "JavaScript", "Python", "PHP"],
-  tools: ["React", "Node.js", "Laravel"],
+  code: ["HTML", "CSS", "JavaScript", "Python", "Java"],
+  framework: ["React", "Node.js", "Springboot", "Tailwind", "ReactJS"],
+  databases: ["PostgreSQL", "SQL Server", "MySQL", "Oracle DB", "MongoDB"],
   countryfrom: ["Peru"]
 };
 ```
