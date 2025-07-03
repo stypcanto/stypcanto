@@ -34,25 +34,39 @@ In my portfolio, you will find a collection of projects that I have developed du
 My goal is to continue growing and learning while contributing to exciting projects.
 
 
-
+## 📊 GitHub Stats
 
 <div align="center">
   <a href="https://github.com/stypcanto/github-readme-stats">
-    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto&layout=compact&langs_count=10&hide=css,html" />
+
+
+
   </a>
 </div>
 
 
+## About Me 🚀
 
-## About me 🚀
+💼 **Profession:** Telecommunications Engineer.  
+💻 **Passion:** Web development and technology.  
+🤝 **Attitude:** Believer in the power of teamwork and collaboration.  
+🎓 **Constant Learning:** Always seeking new ways to improve my skills.
 
-💼 Profession: Telecommunications Engineer.
+---
 
-💻 Passion: Web development and technology.
+## 🚀 Tech Stack
 
-🤝 Attitude: Believer in the power of teamwork and collaboration.
+- ⚙️ **Backend:** Node.js, Java, Spring Boot  
+- 🌐 **Frontend:** React, Tailwind CSS, JavaScript  
+- 🗄️ **Databases:** PostgreSQL, Oracle, MongoDB  
+- ☁️ **Containers:** Docker  
+- 🔒 **Security:** JWT, OAuth  
 
-🎓 Constant learning: Always seeking new ways to improve my skills.
+---
+
+
+
 
 
 
