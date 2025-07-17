@@ -59,39 +59,39 @@ My goal is to continue growing and learning while contributing to exciting proje
 
 ### ⚙️ Backend:
 - Java (Servlets, JSP)
-- Spring Boot (en aprendizaje)
+- Spring Boot (currently learning)
 - Node.js (Express)
-- HL7 FHIR (implementación y comprensión en entornos clínicos)
+- HL7 FHIR (implementation and understanding in clinical environments)
 
 ### 🌐 Frontend:
 - HTML5, CSS3, JavaScript (ES6+)
 - React + Tailwind CSS
 - JSP (JavaServer Pages)
 
-### 🗄️ Bases de Datos:
+### 🗄️ Databases:
 - MySQL, PostgreSQL, Oracle
 - MongoDB (NoSQL)
 
-### ☁️ Contenedores & DevOps:
+### ☁️ Containers & DevOps:
 - Docker & Docker Compose
-- Maven para gestión de dependencias
-- Despliegue local de WARs en Tomcat
+- Maven for dependency management
+- Local WAR deployment using Tomcat
 
-### 🔒 Seguridad:
-- Autenticación con sesiones (Servlet)
-- JWT y OAuth (conocimiento básico/intermedio)
-- Validación y protección de rutas (Filters en Java)
+### 🔒 Security:
+- Session-based authentication (Servlets)
+- JWT and OAuth (basic to intermediate knowledge)
+- Route protection using Java Filters
 
-### 🛠️ Herramientas & Buenas prácticas:
-- Git & GitHub (manejo de ramas, push, pull, merge)
-- Documentación en README.md con screenshots
-- Estructuración de proyectos Java (MVC, paquetes, recursos estáticos)
-- Uso de `RequestDispatcher` vs `sendRedirect` en control de flujo
+### 🛠️ Tools & Best Practices:
+- Git & GitHub (branch management, push, pull, merge)
+- README.md documentation with screenshots
+- Java project structuring (MVC, packages, static resources)
+- Use of `RequestDispatcher` vs `sendRedirect` for flow control
 
-### 📚 Actualmente estudiando:
+### 📚 Currently Learning:
 - Spring Boot (MVC, Security, JPA)
-- Testing con JUnit
-- Listeners y Filters en profundidad
+- Testing with JUnit
+- Deep dive into Listeners and Filters
 
 ---
 
