@@ -38,7 +38,7 @@ My goal is to continue growing and learning while contributing to exciting proje
 
 <div align="center">
   <a href="https://github.com/stypcanto/github-readme-stats">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto&layout=compact&langs_count=10&hide=css,html" />
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto&layout=compact&langs_count=10&hide=css,html,javascript" />
 
 
 
@@ -57,11 +57,41 @@ My goal is to continue growing and learning while contributing to exciting proje
 
 ## 🚀 Tech Stack
 
-- ⚙️ **Backend:** Node.js, Java, Spring Boot  
-- 🌐 **Frontend:** React, Tailwind CSS, JavaScript  
-- 🗄️ **Databases:** PostgreSQL, Oracle, MongoDB  
-- ☁️ **Containers:** Docker  
-- 🔒 **Security:** JWT, OAuth  
+### ⚙️ Backend:
+- Java (Servlets, JSP)
+- Spring Boot (en aprendizaje)
+- Node.js (Express)
+- HL7 FHIR (implementación y comprensión en entornos clínicos)
+
+### 🌐 Frontend:
+- HTML5, CSS3, JavaScript (ES6+)
+- React + Tailwind CSS
+- JSP (JavaServer Pages)
+
+### 🗄️ Bases de Datos:
+- MySQL, PostgreSQL, Oracle
+- MongoDB (NoSQL)
+
+### ☁️ Contenedores & DevOps:
+- Docker & Docker Compose
+- Maven para gestión de dependencias
+- Despliegue local de WARs en Tomcat
+
+### 🔒 Seguridad:
+- Autenticación con sesiones (Servlet)
+- JWT y OAuth (conocimiento básico/intermedio)
+- Validación y protección de rutas (Filters en Java)
+
+### 🛠️ Herramientas & Buenas prácticas:
+- Git & GitHub (manejo de ramas, push, pull, merge)
+- Documentación en README.md con screenshots
+- Estructuración de proyectos Java (MVC, paquetes, recursos estáticos)
+- Uso de `RequestDispatcher` vs `sendRedirect` en control de flujo
+
+### 📚 Actualmente estudiando:
+- Spring Boot (MVC, Security, JPA)
+- Testing con JUnit
+- Listeners y Filters en profundidad
 
 ---
 
