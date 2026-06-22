@@ -18,9 +18,10 @@ const stypcanto = {
   languages: ["TypeScript", "Python", "JavaScript", "Java", "HTML", "CSS"],
   frontend: ["React 18", "Vite", "Tailwind CSS", "Zustand", "React Query"],
   backend: ["FastAPI", "Node.js", "Celery", "Pydantic v2", "Spring Boot"],
-  databases: ["PostgreSQL + pgvector", "Redis", "MongoDB", "MySQL", "Oracle DB"],
+  databases: ["PostgreSQL + pgvector", "Redis", "MySQL", "SQL Server", "Oracle DB"],
   ai_ml: ["faster-whisper", "sentence-transformers", "Groq LLaMA 3.3", "embeddings"],
-  devops: ["Docker Compose", "Kamal", "MinIO", "Turborepo", "pnpm workspaces"],
+  devops: ["GitHub Actions", "Docker Compose", "Kamal", "MinIO", "Turborepo", "pnpm workspaces"],
+  testing: ["Playwright", "K6", "pytest", "Jest"],
   country: "Peru 🇵🇪",
 };
 ```
@@ -70,13 +71,20 @@ An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Telecom
 - **PostgreSQL 16 + pgvector** — relational + vector search
 - **Redis 7** — caching and Celery broker
 - **MinIO** — S3-compatible object storage (audio files)
-- MySQL, Oracle DB, MongoDB
+- MySQL, SQL Server, Oracle DB
 
 ### ☁️ DevOps & Infrastructure
+- **GitHub Actions** — CI/CD pipelines, automated testing and deployments
 - **Docker Compose** — local multi-service orchestration
 - **Kamal** — zero-downtime deploys on VPS
 - **Nginx + Certbot** — reverse proxy + SSL
 - **Turborepo** — monorepo build orchestration
+
+### 🧪 Testing
+- **Playwright** — E2E browser automation and UI testing
+- **K6** — load testing and performance benchmarking
+- **pytest** — Python unit and integration testing
+- **Jest** — JavaScript unit testing
 
 ### 🔒 Security
 - JWT authentication — stateless token-based auth
@@ -91,8 +99,9 @@ An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Telecom
 - WebSocket (Redis pub/sub) — real-time processing status updates
 
 ### 📚 Currently Learning
+- **Flutter** — cross-platform mobile development
+- **Angular** — enterprise frontend framework
 - React Native + Expo SDK 51 (mobile arm of Memorex)
-- Docker Swarm — horizontal scaling
 - Kamal production deploys
 
 ---
@@ -123,11 +132,16 @@ If you want to contribute to my projects, please follow these steps:
     <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
     <a href="https://tailwindcss.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/></a>
     <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
+    <a href="https://github.com/features/actions" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/githubactions/githubactions-original.svg" alt="github actions" width="40" height="40"/></a>
     <a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
     <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
     <a href="https://www.oracle.com/database/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/></a>
     <a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
     <a href="https://spring.io/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40"/></a>
+    <a href="https://playwright.dev/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/playwright/playwright-original.svg" alt="playwright" width="40" height="40"/></a>
+    <a href="https://k6.io/" target="_blank"><img src="https://www.vectorlogo.zone/logos/k6io/k6io-icon.svg" alt="k6" width="40" height="40"/></a>
+    <a href="https://docs.pytest.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/pytest/pytest-original.svg" alt="pytest" width="40" height="40"/></a>
+    <a href="https://jestjs.io/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jest/jest-plain.svg" alt="jest" width="40" height="40"/></a>
   </p>
 </div>
 
