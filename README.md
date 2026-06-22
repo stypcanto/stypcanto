@@ -4,184 +4,137 @@
 
 ![Neutral Creative Professional LinkedIn Article Cover Image (2)](https://github.com/stypcanto/stypcanto/assets/80213508/05e6cce0-40c5-48b2-8336-d891b4f976c3)
 
-
-
-
 <div align="center">
   <h2>You can find me 🌍:</h2>
   
   [![Twitter](https://img.shields.io/badge/-Twitter-1DA1F2?style=flat&logo=twitter&logoColor=white)](https://twitter.com/stypcanto) [![LinkedIn](https://img.shields.io/badge/-LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stypcanto/) [![Instagram](https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white)](https://www.instagram.com/ing.styp.canto/) ![Email](https://img.shields.io/badge/Email-styp611%40outlook.com-red)
 </div>
 
-
-
 ¡Hi!, I am a Peruvian engineer 🇵🇪, creative, and software enthusiast.
 
-```javascript
-const Im_stypcanto = {
+```typescript
+const stypcanto = {
   pronouns: "he" | "him",
-  code: ["HTML", "CSS", "JavaScript", "Python", "Java"],
-  framework: ["React", "Node.js", "Springboot", "Tailwind", "ReactJS"],
-  databases: ["PostgreSQL", "SQL Server", "MySQL", "Oracle DB", "MongoDB"],
-  countryfrom: ["Peru"]
+  languages: ["TypeScript", "Python", "JavaScript", "Java", "HTML", "CSS"],
+  frontend: ["React 18", "Vite", "Tailwind CSS", "Zustand", "React Query"],
+  backend: ["FastAPI", "Node.js", "Celery", "Pydantic v2", "Spring Boot"],
+  databases: ["PostgreSQL + pgvector", "Redis", "MongoDB", "MySQL", "Oracle DB"],
+  ai_ml: ["faster-whisper", "sentence-transformers", "Groq LLaMA 3.3", "embeddings"],
+  devops: ["Docker Compose", "Kamal", "MinIO", "Turborepo", "pnpm workspaces"],
+  country: "Peru 🇵🇪",
 };
 ```
 
-An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Although I am a Telecommunications Engineer by profession, one of my greatest passions is web development,  in the Front-end and now I'm learning too much in the Back-end
-
-In my portfolio, you will find a collection of projects that I have developed during my time at university. These projects reflect my ideas and experience in the technology industry.
-
-My goal is to continue growing and learning while contributing to exciting projects.
-
+An enthusiastic advocate of innovation and a lover of teamwork. 💡🤝 Telecommunications Engineer by profession, with deep passion for full-stack web development and AI-powered products. Currently building **Memorex** — an intelligent voice-to-knowledge platform with a local AI pipeline (Whisper + LLaMA + semantic search).
 
 ## 📊 GitHub Stats
 
 <div align="center">
   <a href="https://github.com/stypcanto/github-readme-stats">
-<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto&layout=compact&langs_count=10&hide=css,html,javascript" />
-
-
-
+    <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=stypcanto&layout=compact&langs_count=10&hide=css,html,javascript" />
   </a>
 </div>
 
-
 ## About Me 🚀
 
-💼 **Profession:** Telecommunications Engineer.  
-💻 **Passion:** Web development and technology.  
-🤝 **Attitude:** Believer in the power of teamwork and collaboration.  
-🎓 **Constant Learning:** Always seeking new ways to improve my skills.
+💼 **Profession:** Telecommunications Engineer  
+💻 **Passion:** Full-stack development & AI-powered products  
+🤝 **Attitude:** Believer in the power of teamwork and collaboration  
+🎓 **Constant Learning:** Always seeking new ways to improve my skills
 
 ---
 
 ## 🚀 Tech Stack
 
-### ⚙️ Backend:
-- Java (Servlets, JSP)
-- Spring Boot (currently learning)
-- Node.js (Express)
-- HL7 FHIR (implementation and understanding in clinical environments)
+### ⚙️ Backend
+- **FastAPI** (Python 3.13) — async endpoints, Pydantic v2, Depends()
+- **Celery 5 + Redis** — async job queues for AI processing pipelines
+- **SQLAlchemy 2.0 async** + Alembic — ORM and database migrations
+- **Node.js** (Express) — REST APIs and server-side logic
+- **Spring Boot** — MVC, Security, JPA
 
-### 🌐 Frontend:
-- HTML5, CSS3, JavaScript (ES6+)
-- React + Tailwind CSS
-- JSP (JavaServer Pages)
+### 🌐 Frontend
+- **React 18** + **Vite** + **TypeScript**
+- **Tailwind CSS** — custom design tokens, responsive layouts, dark/light themes
+- **Zustand** — global UI state management
+- **TanStack Query (React Query)** — server state, caching, mutations
+- **Turborepo + pnpm workspaces** — monorepo for web + mobile shared code
 
-### 🗄️ Databases:
-- MySQL, PostgreSQL, Oracle
-- MongoDB (NoSQL)
+### 🧠 AI / ML
+- **faster-whisper** — local speech-to-text transcription (CPU)
+- **sentence-transformers** (`all-MiniLM-L6-v2`) — local semantic embeddings (384 dims)
+- **Groq API** (LLaMA 3.3 70B) — text refinement, summarization, tagging, categorization
+- **pgvector** — vector similarity search inside PostgreSQL
 
-### ☁️ Containers & DevOps:
-- Docker & Docker Compose
-- Maven for dependency management
-- Local WAR deployment using Tomcat
+### 🗄️ Databases
+- **PostgreSQL 16 + pgvector** — relational + vector search
+- **Redis 7** — caching and Celery broker
+- **MinIO** — S3-compatible object storage (audio files)
+- MySQL, Oracle DB, MongoDB
 
-### 🔒 Security:
-- Session-based authentication (Servlets)
-- JWT and OAuth (basic to intermediate knowledge)
-- Route protection using Java Filters
+### ☁️ DevOps & Infrastructure
+- **Docker Compose** — local multi-service orchestration
+- **Kamal** — zero-downtime deploys on VPS
+- **Nginx + Certbot** — reverse proxy + SSL
+- **Turborepo** — monorepo build orchestration
 
-### 🛠️ Tools & Best Practices:
-- Git & GitHub (branch management, push, pull, merge)
-- README.md documentation with screenshots
-- Java project structuring (MVC, packages, static resources)
-- Use of `RequestDispatcher` vs `sendRedirect` for flow control
+### 🔒 Security
+- JWT authentication — stateless token-based auth
+- Role-based access control (user / admin)
+- BCrypt password hashing
+- CORS, route guards, FastAPI Depends() middleware
 
-### 📚 Currently Learning:
-- Spring Boot (MVC, Security, JPA)
-- Testing with JUnit
-- Deep dive into Listeners and Filters
+### 🛠️ Tools & Best Practices
+- Git & GitHub — branch management, PRs, semantic commits
+- pnpm workspaces — shared packages (types, API client, UI components)
+- Alembic — schema migrations with rollback support
+- WebSocket (Redis pub/sub) — real-time processing status updates
+
+### 📚 Currently Learning
+- React Native + Expo SDK 51 (mobile arm of Memorex)
+- Docker Swarm — horizontal scaling
+- Kamal production deploys
 
 ---
 
+## 🤝 Contributing
+If you want to contribute to my projects, please follow these steps:
 
+1. Fork the repository.
+2. Create a branch: `git checkout -b feature/my-contribution`
+3. Commit your changes: `git commit -m "feat: add my contribution"`
+4. Push: `git push origin feature/my-contribution`
+5. Open a Pull Request.
 
+---
 
+<h3 align="left">🧰 Languages and Tools:</h3>
 
+<div align="center">
+  <p>
+    <a href="https://reactjs.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/></a>
+    <a href="https://vitejs.dev/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vite/vite-original.svg" alt="vite" width="40" height="40"/></a>
+    <a href="https://www.typescriptlang.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></a>
+    <a href="https://fastapi.tiangolo.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/fastapi/fastapi-original.svg" alt="fastapi" width="40" height="40"/></a>
+    <a href="https://www.python.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/></a>
+    <a href="https://nodejs.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/></a>
+    <a href="https://www.postgresql.org" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/></a>
+    <a href="https://redis.io/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/></a>
+    <a href="https://www.docker.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/></a>
+    <a href="https://tailwindcss.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-original.svg" alt="tailwind" width="40" height="40"/></a>
+    <a href="https://git-scm.com/" target="_blank"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/></a>
+    <a href="https://www.linux.org/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/></a>
+    <a href="https://www.mysql.com/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/></a>
+    <a href="https://www.oracle.com/database/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/></a>
+    <a href="https://www.java.com" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/></a>
+    <a href="https://spring.io/" target="_blank"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring" width="40" height="40"/></a>
+  </p>
+</div>
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=stypcanto&show_icons=true&theme=transparent" alt="Styp Canto's GitHub stats" />
 </div>
 
-
-
-<h3 align="left">🧰  Languages and Tools:</h3>
-
-
-
-<div align="center">
-  <p>
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/>
-    </a>
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-    </a>
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/>
-    </a>
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-    </a>
-    <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/>
-    </a>
-    <a href="https://git-scm.com/" target="_blank" rel="noreferrer">
-      <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/>
-    </a>
-    <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/>
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/>
-    </a>
-    <a href="https://www.linux.org/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/>
-    </a>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/>
-    </a>
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/>
-    </a>
-    <a href="https://www.php.net" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/>
-    </a>
-    <a href="https://www.postgresql.org" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="postgresql" width="40" height="40"/>
-    </a>
-    <a href="https://www.python.org" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/>
-    </a>
-      <a href="https://www.oracle.com/database/" target="_blank" rel="noreferrer">
-      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" alt="oracle" width="40" height="40"/>
-    </a>
-   
-  </p>
-</div>
-
-
-
-
-
-
 <div align="center">
   <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=stypcanto&" alt="stypcanto" /></p>
 </div>
-
-
-
-## 🤝 Contributing
-If you want to contribute to my project, please follow these steps:
-
-1. Fork the repository.
-2. Create a branch for your contribution: `git checkout -b my-contribution`
-3. Make your changes and commit them: `git commit -m "Add my contribution"`
-4. Push your changes to your GitHub repository: `git push origin my-contribution`
-5. Create a Pull Request in the original repository.
-
-
-
-
-
